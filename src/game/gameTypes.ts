@@ -10,8 +10,8 @@ export enum ResponseText {
   PAPER = '✋',
   SCISSORS = '✌️',
 }
-export const ComputerResponse: Choice[] = [
-  { type: ResponseTypeEnum.ROCK },
-  { type: ResponseTypeEnum.PAPER },
-  { type: ResponseTypeEnum.SCISSORS },
+export const ComputerResponse: string[] = [
+  ResponseTypeEnum.ROCK,
+  ResponseTypeEnum.PAPER,
+  ResponseTypeEnum.SCISSORS,
 ];
