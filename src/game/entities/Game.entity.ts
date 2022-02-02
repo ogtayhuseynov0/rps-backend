@@ -16,9 +16,6 @@ export class GameEntity {
   @Generated('uuid')
   uid: string;
 
-  @Column()
-  userId: string;
-
   @Column({ default: 0 })
   userPoint: number;
 
