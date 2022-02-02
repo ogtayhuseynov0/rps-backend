@@ -12,18 +12,12 @@ export default function choiceResult(
       compChoice === ResponseTypeEnum.PAPER
     ) {
       return -1;
-    } else {
-      return 1;
-    }
-    if (
+    } else if (
       userChoice === ResponseTypeEnum.PAPER &&
       compChoice === ResponseTypeEnum.SCISSORS
     ) {
       return -1;
-    } else {
-      return 1;
-    }
-    if (
+    } else if (
       userChoice === ResponseTypeEnum.SCISSORS &&
       compChoice === ResponseTypeEnum.ROCK
     ) {

@@ -1,5 +1,3 @@
-import {Choice} from "./interfaces/Choice";
-
 export enum ResponseTypeEnum {
   ROCK = 'rock',
   PAPER = 'paper',
