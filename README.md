@@ -11,4 +11,5 @@
 - [x] TypeOrm + Sqlite
 - [ ] SocketIO Realtime
 - [ ] Request Validation
+- [ ] Tests
 - [ ] Deployment
