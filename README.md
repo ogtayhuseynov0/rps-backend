@@ -1,6 +1,6 @@
 ## Nest Rock Paper Scissors backend
 
-- [x] Swagger Documentation at /documentation
+- [x] Swagger Documentation at /
 - [x] Endpoint: User Choice
     - [x] Create game if not exists
     - [x] Game end if comp or user has 3/3

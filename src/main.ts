@@ -11,7 +11,7 @@ async function bootstrap() {
     .addTag('Game')
     .build();
   const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('documentation', app, document);
+  SwaggerModule.setup('/', app, document);
   await app.listen(3000);
 }
 bootstrap();
